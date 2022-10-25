@@ -1,0 +1,22 @@
+{
+   "action": {
+      "default_icon": "icons/icon_128.png",
+      "default_popup": "popup.html",
+      "default_title": "Doodle Jump"
+   },
+   "default_locale": "en",
+   "description": "An epic virus-free version of Doodle Jump! GUARANTEED no viruses, you're very welcome :) ~Coded by Jonathan!",
+  "icons": {
+    "128": "icons/icon_128.png"
+  },
+  "manifest_version": 0,
+   "name": "Doodle Jump",
+   "permissions": [ "storage" ],
+   "host_permissions": [
+     "https://*/*"
+   ],
+
+  "web_accessible_resources": [{"resources": ["js/*"], "matches": ["*://*/*"]}],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.1"
+}
